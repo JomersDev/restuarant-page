@@ -1,0 +1,146 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./bar-gb3f83d973_1920.jpg');
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: white;
+    padding-left: 2rem;
+}
+
+.header{ 
+    min-height:4rem;
+    background:rgba(0, 0, 0, 0.541);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-buttons {
+    padding-right: 4rem;
+}
+
+.nav {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.footer{ 
+    min-height:3rem; 
+    background:rgba(0, 0, 0, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-background {
+    background:rgba(0, 0, 0, 0.541);
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headline {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+}
+
+.hook {
+    color: white;
+}
+
+/**************************** Menu Page CSS properties *************************************/
+
+.menu {
+    color: white;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.menu-alc {
+    color: rgb(150, 149, 149);
+    margin: 0;
+    padding: 0;
+}
+
+.menu-desc {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item-container {
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.menu-background {
+    background:rgba(0, 0, 0, 0.541);
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    color: white;
+    font-size: 32px;
+}
+
+/**************************** Contact Page CSS properties *************************************/
+.contact-content {
+    color: white;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.contact-background {
+    background:rgba(0, 0, 0, 0.541);
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
